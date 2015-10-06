@@ -149,7 +149,6 @@ class Board
       end
       print "\n"
     end
-    puts
     #colorize gem
     #unicode for chess pieces
   end
@@ -162,13 +161,5 @@ class Board
 
 end
 
-if __FILE__ == $PROGRAM_NAME
-  # board = Board.new
-  # board.render
-  # pos = [0, 0]
-  # p board.occupied?(pos)
-  # p board[pos]
-  # board[pos] = 1
-  # p board[pos]
-  # p board.occupied?(pos)
-end
+# if __FILE__ == $PROGRAM_NAME
+# end
